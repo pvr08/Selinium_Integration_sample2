@@ -6,6 +6,8 @@
 	<properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+	 <java.version>11</java.version>
+        <lombok.version>1.18.20</lombok.version>
     </properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
