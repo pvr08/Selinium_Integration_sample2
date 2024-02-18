@@ -30,7 +30,7 @@ jobs:
         cache: maven
 
     - name: Build with Maven
-      run: mvn -X clean test
+      run: mvn -e clean test
 
 
     - name: Upload test results
