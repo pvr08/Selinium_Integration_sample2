@@ -15,6 +15,6 @@ import io.cucumber.junit.CucumberOptions;
 	plugin = {"pretty","html:test-output/HtmlReports"}
 		
 	)
-public class RunnerTest {
+public class TestRunner {
 	
 }
