@@ -42,6 +42,12 @@
 			<artifactId>cucumber-picocontainer</artifactId>
 			<version>7.15.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.8.0</version>
+			<scope>test</scope>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports-testng-adapter -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
