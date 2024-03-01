@@ -42,6 +42,12 @@
 			<artifactId>cucumber-picocontainer</artifactId>
 			<version>7.15.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.8.0</version>
+			<scope>test</scope>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports-testng-adapter -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
@@ -67,17 +73,7 @@
             <version>1.18.20</version>
             <scope>provided</scope> <!-- Lombok only needed at compile time -->
         </dependency>
-
-	   <dependency> 
-       <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-engine</artifactId> 
-       <version>5.10.2</version>
-    </dependency> 
-   <dependency>
-        <groupId>org.junit.platform</groupId>
-        <artifactId>junit-platform-surefire-provider</artifactId> 
-       <version>1.3.2</version> 
-   </dependency>
+	
 	</dependencies>
 	<build>
         <plugins>
